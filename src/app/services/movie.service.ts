@@ -9,7 +9,7 @@ import { GetMovieRequest } from '../models/GetMovieRequest';
 })
 export class MovieService {
 
-  private baseUrl:string="https://movieticketmicroserviceapp.azurewebsites.net/movie/api/v1.0/moviebooking";
+  private baseUrl:string="https://movieticketmicroserviceapp.azurewebsites.net/api/v1.0/moviebooking";
   //https://localhost:7108/movie/api/v1.0/moviebooking/movies/search/moviename?moviename=Avatar https://localhost:7108/movie/api/v1.0/moviebooking
   public $cardDataSubject;
 
